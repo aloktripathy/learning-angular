@@ -1,0 +1,336 @@
+[
+    {
+        "chapter": 4,
+        "title": "Performance",
+        "tutorials":[
+            {
+                "title": "Introduction to Chapter 4",
+                "video": "https://www.youtube.com/watch?v=GGMfM3pYK_4"
+            },
+            {
+                "title": "Storage Engines: Introduction",
+                "video": "https://www.youtube.com/watch?v=YvK7I9fYpK4"
+            },
+            {
+                "title": "Storage Engines: MMAPv1",
+                "video": "https://www.youtube.com/watch?v=os3591KviNM"
+            },
+            {
+                "title": "Storage Engines: Wired Tiger",
+                "video": "https://www.youtube.com/watch?v=aNsugW7r3mM"
+            },
+            {
+                "title": "Indexes",
+                "video": "https://www.youtube.com/watch?v=U3iWPF5jP-g"
+            },
+            {
+                "title": "Creating Indexes",
+                "video": "https://www.youtube.com/watch?v=xi2gtzZez6Q"
+            },
+            {
+                "title": "Discovering and Deleting Indexes",
+                "video": "https://www.youtube.com/watch?v=dX49IcmTrGA"
+            },
+            {
+                "title": "Multikey Indexes",
+                "video": "https://www.youtube.com/watch?v=_NGwn_X82Dw"
+            },
+            {
+                "title": "Dot Notation and Multikey",
+                "video": "https://www.youtube.com/watch?v=wT0_ktAZbBg"
+            },
+            {
+                "title": "Index Creation Option, Unique",
+                "video": "https://www.youtube.com/watch?v=D-Ra5TEaaL4"
+            },
+            {
+                "title": "Index Creation, Sparse",
+                "video": "https://www.youtube.com/watch?v=ZznHByqtTMA"
+            },
+            {
+                "title": "Index Creation, Background",
+                "video": "https://www.youtube.com/watch?v=AchmKNj2qhw"
+            },
+            {
+                "title": "Using Explain",
+                "video": "https://www.youtube.com/watch?v=liXIn8CnJaI"
+            },
+            {
+                "title": "Explain: Versosity",
+                "video": "https://www.youtube.com/watch?v=WxXVun6bZ20"
+            },
+            {
+                "title": "Covered Queries",
+                "video": "https://www.youtube.com/watch?v=QyV79jsSJ9Y"
+            },
+            {
+                "title": "When is an Index Used?",
+                "video": "https://www.youtube.com/watch?v=JyQlxDc549c"
+            },
+            {
+                "title": "How Large is Your Index?",
+                "video": "https://www.youtube.com/watch?v=wjA0eo_lihg"
+            },
+            {
+                "title": "Number of Index Entries",
+                "video": "https://www.youtube.com/watch?v=xiujksUfzUA"
+            },
+            {
+                "title": "Geospatial Indexes",
+                "video": "https://www.youtube.com/watch?v=UKUDYqNVL6I"
+            },
+            {
+                "title": "Geospatial Spherical",
+                "video": "https://www.youtube.com/watch?v=pULU4DVsUWQ"
+            },
+            {
+                "title": "Text Indexes",
+                "video": "https://www.youtube.com/watch?v=nLau5Fx9LC8"
+            },
+            {
+                "title": "Efficiency of Index Use",
+                "video": "https://www.youtube.com/watch?v=JJmIf0pn100"
+            },
+            {
+                "title": "Efficiency of Indexes: Example",
+                "video": "https://www.youtube.com/watch?v=g032EW67SRA"
+            },
+            {
+                "title": "Logging Slow Queries",
+                "video": "https://www.youtube.com/watch?v=aWuvC-O7Qkk"
+            },
+            {
+                "title": "Profiling",
+                "video": "https://www.youtube.com/watch?v=pN1Yhrup9-I"
+            },
+            {
+                "title": "Mongotop",
+                "video": "https://www.youtube.com/watch?v=D9YLXgy7NYo"
+            },
+            {
+                "title": "Mongostat",
+                "video": "https://www.youtube.com/watch?v=E2aDTSes3Wc"
+            },
+            {
+                "title": "Sharding Overview",
+                "video": "https://www.youtube.com/watch?v=BDxT-VZdYqc"
+            }
+        ]
+    },
+    {
+        "chapter": 5,
+        "title": "Aggregation Framework",
+        "tutorials":[
+            {
+                "title": "Introduction to Chapter 5",
+                "video": "https://www.youtube.com/watch?v=EaEIHm3CMQM"
+            },
+            {
+                "title": "Simple Aggregation Example",
+                "video": "https://www.youtube.com/watch?v=DQBXCsjeO5c"
+            },
+            {
+                "title": "The Aggregation Pipeline",
+                "video": "https://www.youtube.com/watch?v=AuO8CEkTG6Y"
+            },
+            {
+                "title": "Simple Example Expanded",
+                "video": "https://www.youtube.com/watch?v=3lEpnMcfpCs"
+            },
+            {
+                "title": "Compound Grouping",
+                "video": "https://www.youtube.com/watch?v=qTbtax_cKcc"
+            },
+            {
+                "title": "Using a document for _id",
+                "video": "https://www.youtube.com/watch?v=zoN4cj_XQzY"
+            },
+            {
+                "title": "Aggregation for Expressions",
+                "video": "https://www.youtube.com/watch?v=L4G14MTfTgQ"
+            },
+            {
+                "title": "Using $sum",
+                "video": "https://www.youtube.com/watch?v=93MSz3uDC1A"
+            },
+            {
+                "title": "Using $avg",
+                "video": "https://www.youtube.com/watch?v=baIDZ-M5j7w"
+            },
+            {
+                "title": "Using $addToSet",
+                "video": "https://www.youtube.com/watch?v=YzURaZnKI9s"
+            },
+            {
+                "title": "Using $push",
+                "video": "https://www.youtube.com/watch?v=LQcBM-g0ACY"
+            },
+            {
+                "title": "Using $max and $min",
+                "video": "https://www.youtube.com/watch?v=BYoNX4trjOQ"
+            },
+            {
+                "title": "Using Double Group Stages",
+                "video": "https://www.youtube.com/watch?v=EIWF9Oxeb8M"
+            },
+            {
+                "title": "Using $project",
+                "video": "https://www.youtube.com/watch?v=TbQ2PI5Fib0"
+            },
+            {
+                "title": "Using $match",
+                "video": "https://www.youtube.com/watch?v=7RtHG90Hrbw"
+            },
+            {
+                "title": "Using $text",
+                "video": "https://www.youtube.com/watch?v=LpDSge_GbpI"
+            },
+            {
+                "title": "Using $sort",
+                "video": "https://www.youtube.com/watch?v=HUEtV7omSb8"
+            },
+            {
+                "title": "Using $limit and $skip",
+                "video": "https://www.youtube.com/watch?v=o5hzYKXUyrU"
+            },
+            {
+                "title": "Revisiting $first and $last",
+                "video": "https://www.youtube.com/watch?v=JOdAnxVAMwc"
+            },
+            {
+                "title": "Using $unwind",
+                "video": "https://www.youtube.com/watch?v=E4aYOQPeQvI"
+            },
+            {
+                "title": "$unwind Example",
+                "video": "https://www.youtube.com/watch?v=U_4Enh2TTp4"
+            },
+            {
+                "title": "Double $unwind",
+                "video": "https://www.youtube.com/watch?v=YXGL27217B8"
+            },
+            {
+                "title": "Using $out",
+                "video": "https://www.youtube.com/watch?v=b1dfUSrTPto"
+            },
+            {
+                "title": "Aggregation Options",
+                "video": "https://www.youtube.com/watch?v=0CGNVacCrY8"
+            },
+            {
+                "title": "Python and Aggregation Results",
+                "video": "https://www.youtube.com/watch?v=GqdcFE6kNBs"
+            },
+            {
+                "title": "Mapping Between SQL and Aggregation",
+                "video": "https://www.youtube.com/watch?v=auL2R0XKlyM"
+            },
+            {
+                "title": "Some Common SQL Examples",
+                "video": "https://www.youtube.com/watch?v=ep2gLSR6C0U"
+            },
+            {
+                "title": "Limitation of the Aggregation Framework",
+                "video": "https://www.youtube.com/watch?v=U_gRSxEq3c0"
+            }
+        ]
+    },
+    {
+        "chapter": 6,
+        "title": "Application Engineering",
+        "tutorials":[
+            {
+                "title": "Introduction to Week 6",
+                "video": "https://www.youtube.com/watch?v=BmQuvmpt_ZQ"
+            },
+            {
+                "title": "Write Concern",
+                "video": "https://www.youtube.com/watch?v=oRDYNWCYnGo"
+            },
+            {
+                "title": "Network Errors",
+                "video": "https://www.youtube.com/watch?v=xWNzCkTCN-M"
+            },
+            {
+                "title": "Introduction to Replications",
+                "video": "https://www.youtube.com/watch?v=f1WTYGORU3w"
+            },
+            {
+                "title": "Replica Set Elections",
+                "video": "https://www.youtube.com/watch?v=WFXSVHO78bQ"
+            },
+            {
+                "title": "Write Consistency",
+                "video": "https://www.youtube.com/watch?v=Oqf_Eza-s1M"
+            },
+            {
+                "title": "Creating a Replica Set",
+                "video": "https://www.youtube.com/watch?v=flCFVFBRsKI"
+            },
+            {
+                "title": "Replica Set Internals",
+                "video": "https://www.youtube.com/watch?v=6GbrJmxCEl0"
+            },
+            {
+                "title": "Failover and Rollback",
+                "video": "https://www.youtube.com/watch?v=IW1oW_Adlt0"
+            },
+            {
+                "title": "Connecting to a Replica Set from Pymongo",
+                "video": "https://www.youtube.com/watch?v=4cYhrGceA10"
+            },
+            {
+                "title": "What Happens When Failover Occurs",
+                "video": ""
+            },
+            {
+                "title": "Detecting Failovers",
+                "video": ""
+            },
+            {
+                "title": "Proper Handling of Failovers for Inserts",
+                "video": ""
+            },
+            {
+                "title": "Proper Handling of Failovers for Reads",
+                "video": ""
+            },
+            {
+                "title": "Proper Handling of Failovers for Updates",
+                "video": ""
+            },
+            {
+                "title": "Write Concern Revisited",
+                "video": ""
+            },
+            {
+                "title": "Read Preferences",
+                "video": ""
+            },
+            {
+                "title": "Review of Implications of Replications",
+                "video": ""
+            },
+            {
+                "title": "Introduction to Sharding",
+                "video": ""
+            },
+            {
+                "title": "Building a Shard Environment",
+                "video": ""
+            },
+            {
+                "title": "Implications of Sharding",
+                "video": ""
+            },
+            {
+                "title": "Shard + Replication",
+                "video": ""
+            },
+            {
+                "title": "Choosing a Shard Key",
+                "video": ""
+            }
+        ]
+    }
+]

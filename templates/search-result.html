@@ -1,0 +1,6 @@
+<a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">{{ person.name }}</h4>
+    <p class="list-group-item-text">{{ fAddress({aperson: person})}}</p>
+    <!-- CONTENT FROM INSIDE THE PLACEHOLDER TAG <search-result> WILL BE CAPTURED BY THE ng-transclude directive below -->
+    <small ng-transclude></small>
+</a>

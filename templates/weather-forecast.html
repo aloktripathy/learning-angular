@@ -1,0 +1,13 @@
+<h3>forecast page for {{ city }}</h3>
+
+<div class="pagination">
+    <li ng-repeat="i in [3, 5, 7, 10]" ng-class="{active: days == i}">
+        <a href="#/forecast/{{i}}">{{ i }}</a>
+    </li>
+</div>
+
+<weather-report ng-repeat="w in weatherResult.list" report="w" to-std-temperature="filters.toCelcius(t)"></weather-report>
+
+<ul class="pager">
+    <li class="previous"><a href="#/"><span aria-hidden="true">&larr;</span> Back to Search</a></li>
+</ul>

@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">
+                    <!--<span class="glyphicon glyphicon-cloud"></span>-->
+                    {{ report.dt*1000 | date:'MMM dd, yyyy' }}
+                    <span class="current-weather col-md-8" style="background-image: url(http://openweathermap.org/img/w/{{ report.weather[0].icon }}.png)"></span>
+                    <span>{{ report.weather[0].description }}</span>
+                </h2>
+            </div>
+            <div class="panel-body">
+                <span class="glyphicon glyphicon-arrow-down temp-low"></span>
+                {{ toStdTemperature({t: report.temp.min}) }}
+                <span class="glyphicon glyphicon-certificate sun"></span>
+                <b>{{ toStdTemperature({t: report.temp.day}) }}</b>
+                <span class="glyphicon glyphicon-arrow-up temp-high"></span>
+                {{ toStdTemperature({t: report.temp.max}) }}
+                <span class="glyphicon glyphicon-tint humidity"></span>
+                {{ report.humidity }}%
+            </div>
+        </div>
+    </div>
+</div>

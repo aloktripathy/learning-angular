@@ -1,0 +1,179 @@
+header{
+    font-size: 25px;
+    color: #FFF;
+    background-color: #D43F3F;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    line-height: 50px;
+    top: 0px;
+    z-index: 9999;
+}
+
+.container{
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.username-validators{
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+
+.username-validators li{
+    padding: 5px;
+    margin: 2px;
+    /*
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    */
+    font-size: 14px;
+}
+
+.username-validators li.alert-danger::before{
+    font-family: 'Glyphicons Halflings';
+    content: "\e088";
+}
+
+.username-validators li.alert-success::before{
+    font-family: 'Glyphicons Halflings';
+    content: "\e089";
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+.reddit-stories li{
+    margin: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 4px;
+}
+
+.reddit-stories .input-group{
+    margin: 20px 15px;
+}
+
+.search-results a small{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.1em;
+}
+
+/*********************** UDEMY COURSES ***********************/
+
+.udemy-courses ul.catalogue{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.udemy-courses .catalogue li.card-wrapper{
+    width: 25%;
+    float: left;
+}
+
+.udemy-courses .catalogue li .card{
+    margin: 10px;
+    background: #FFF;
+    overflow: hidden;
+}
+
+.udemy-courses .card-title{
+    font-size: 0.9em;
+    color: #6B6B6B;
+    font-weight: bold;
+}
+
+.udemy-courses .card-block {
+    padding: .50rem;
+}
+
+.card-img-top{
+    width: 100%;
+}
+
+.card p.card-text{height: 3em;}
+
+.star-rating:before, .star-rating .rating:before{
+    content: "★★★★★";
+    color: #aaa;
+    font-size: 20px;
+    line-height: 1;
+    width: 100px;
+    /*letter-spacing: 4px;*/
+    cursor: default;
+}
+
+.star-rating{
+    position: relative;
+}
+
+.star-rating .rating:before{
+    color: #FF6161;
+}
+
+.star-rating .rating{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: -3px;
+    overflow: hidden;
+}
+
+.container.udemy-courses{
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100% !important;
+    background-color: #f9f9f9;
+}
+
+/*********************** WEATHER APP **************************/
+
+
+.panel-title .glyphicon-cloud{
+    color: #6AAEEF;
+    margin-right: 6px;
+    top: 3px;
+}
+
+.panel-body .sun{
+    font-size: 1.2em;
+    color: #F3CE25;
+    top: 3px;
+}
+
+.panel-body .humidity{
+    margin-left: 20px;
+    top: 3px;
+    font-size: 1.1em;
+    color: #9CD7E8;
+}
+
+.panel-body .temp-low{
+    color: #4181F1;
+}
+
+.panel-body .temp-high{
+    color: #F56E28;
+}
+
+.panel-title .current-weather{
+    width: 32px;
+    height: 0;
+    background-position: center center;
+    padding: 10px 20px;
+    margin: 0 10px auto 3px;
+}
+
+.panel-title{
+    font-size: 20px;
+}
+
+
